@@ -18,7 +18,9 @@ extension StoryboardLoadable where Self: UIViewController {
 
 extension StoryboardLoadable where Self: UITableViewController {
     static var storyboardName: String {
-        return String(describing: Self.self).replacingOccurrences(of: "TableViewController", with: "")
+        return String(describing: Self.self)
+            .replacingOccurrences(of: "TableViewController", with: "")
+            .replacingOccurrences(of: "ViewController", with: "")
     }
 
     static var storyboardIdentifier: String {
