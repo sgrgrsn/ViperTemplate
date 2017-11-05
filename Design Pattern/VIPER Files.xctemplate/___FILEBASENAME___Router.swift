@@ -9,11 +9,13 @@ class ___VARIABLE_ModuleName___Router {
 
     // MARK: Static methods
 
-    static func setupModule() -> ___VARIABLE_ModuleName___ViewController {
+    static func setupModule() -> UIViewController {
         let viewController = UIStoryboard.loadViewController() as ___VARIABLE_ModuleName___ViewController
         let presenter = ___VARIABLE_ModuleName___Presenter()
         let router = ___VARIABLE_ModuleName___Router()
         let interactor = ___VARIABLE_ModuleName___Interactor()
+
+        let navigation = UINavigationController(rootViewController: viewController)
 
         viewController.presenter =  presenter
 
@@ -25,7 +27,7 @@ class ___VARIABLE_ModuleName___Router {
 
         interactor.output = presenter
 
-        return viewController
+        return navigation
     }
 }
 
