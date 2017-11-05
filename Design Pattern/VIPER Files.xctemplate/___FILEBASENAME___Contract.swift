@@ -1,14 +1,6 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
-//
-
 import Foundation
 
-protocol ___VARIABLE_ModuleName___View: BaseView {
+protocol ___VARIABLE_ModuleName___View: class {
     // TODO: Declare view methods
 }
 

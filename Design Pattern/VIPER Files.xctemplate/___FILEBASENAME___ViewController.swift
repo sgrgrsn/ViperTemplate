@@ -1,15 +1,7 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
-//
-
 import Foundation
 import UIKit
 
-class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoadable {
+class ___VARIABLE_ModuleName___ViewController: UIViewController, StoryboardLoadable {
 
     // MARK: Properties
 
