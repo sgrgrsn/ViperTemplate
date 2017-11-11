@@ -17,7 +17,7 @@ class ___VARIABLE_ModuleName___Router {
 
         let navigation = UINavigationController(rootViewController: viewController)
 
-        viewController.presenter =  presenter
+        viewController.presenter = presenter
 
         presenter.view = viewController
         presenter.router = router
