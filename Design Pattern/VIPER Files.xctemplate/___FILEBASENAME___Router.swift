@@ -10,7 +10,7 @@ class ___VARIABLE_ModuleName___Router {
     // MARK: Static methods
 
     static func setupModule() -> UIViewController {
-        let viewController = UIStoryboard.loadViewController() as ___VARIABLE_ModuleName___ViewController
+        let viewController: ___VARIABLE_ModuleName___ViewController = UIStoryboard.loadViewController()
         let presenter = ___VARIABLE_ModuleName___Presenter()
         let router = ___VARIABLE_ModuleName___Router()
         let interactor = ___VARIABLE_ModuleName___Interactor()
