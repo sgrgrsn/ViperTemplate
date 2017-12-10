@@ -1,9 +1,6 @@
 import Foundation
 
 class ___VARIABLE_ModuleName___Interactor {
-
-    // MARK: Properties
-
     weak var output: ___VARIABLE_ModuleName___InteractorOutput!
 }
 
