@@ -5,7 +5,7 @@ class ___VARIABLE_ModuleName___Router {
 
     // MARK: Properties
 
-    weak var view: UIViewController?
+    weak var view: UIViewController!
 
     // MARK: Static methods
 

@@ -4,7 +4,7 @@ class ___VARIABLE_ModuleName___Interactor {
 
     // MARK: Properties
 
-    weak var output: ___VARIABLE_ModuleName___InteractorOutput?
+    weak var output: ___VARIABLE_ModuleName___InteractorOutput!
 }
 
 extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___UseCase {

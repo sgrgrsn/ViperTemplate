@@ -5,7 +5,7 @@ class ___VARIABLE_ModuleName___ViewController: UIViewController, StoryboardLoada
 
     // MARK: Properties
 
-    var presenter: ___VARIABLE_ModuleName___Presentation?
+    var presenter: ___VARIABLE_ModuleName___Presentation!
 
     // MARK: Lifecycle
 
