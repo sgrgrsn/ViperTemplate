@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 class ___VARIABLE_ModuleName___Router {
-    weak var view: UIViewController!
+    weak var view: UIViewController?
 
     static func setupModule() -> UIViewController {
         let viewController: ___VARIABLE_ModuleName___ViewController = UIStoryboard.loadViewController()

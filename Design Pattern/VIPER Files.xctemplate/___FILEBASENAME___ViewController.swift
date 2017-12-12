@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 class ___VARIABLE_ModuleName___ViewController: UIViewController, StoryboardLoadable {
-    var presenter: ___VARIABLE_ModuleName___Presentation!
+    var presenter: ___VARIABLE_ModuleName___Presentation?
 
     // MARK: Lifecycle
 
