@@ -14,7 +14,6 @@ class ___VARIABLE_ModuleName___Router {
         let presenter = ___VARIABLE_ModuleName___Presenter((view, interactor, router))
 
         view.presenter = presenter
-        router.view = view
 
         return view
     }
