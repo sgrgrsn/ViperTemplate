@@ -7,10 +7,10 @@ class ___VARIABLE_ModuleName___Presenter {
 
     private lazy var bag = DisposeBag()
 
-    init(view: ___VARIABLE_ModuleName___View, interactor: ___VARIABLE_ModuleName___UseCase, router: ___VARIABLE_ModuleName___Wireframe) {
-        self.view = view
-        self.interactor = interactor
-        self.router = router
+    init(_ module: ___VARIABLE_ModuleName___Module) {
+        self.view = module.view
+        self.interactor = module.interactor
+        self.router = module.router
 
         view.didLoad
             .subscribe(onNext: { [weak self] _ in
