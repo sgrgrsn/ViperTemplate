@@ -8,9 +8,9 @@ class ___VARIABLE_ModuleName___Presenter {
     private lazy var bag = DisposeBag()
 
     init(_ module: ___VARIABLE_ModuleName___Module) {
-        self.view = module.view
-        self.interactor = module.interactor
-        self.router = module.router
+        view = module.view
+        interactor = module.interactor
+        router = module.router
 
         view.didLoad
             .subscribe(onNext: { [weak self] _ in
