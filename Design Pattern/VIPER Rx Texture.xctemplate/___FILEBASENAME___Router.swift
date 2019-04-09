@@ -1,7 +1,7 @@
 import AsyncDisplayKit
 
 class ___VARIABLE_ModuleName___Router {
-    private unowned var view: UIViewController
+    private unowned let view: UIViewController
 
     private init(_ view: ___VARIABLE_ModuleName___ViewController) {
         self.view = view
