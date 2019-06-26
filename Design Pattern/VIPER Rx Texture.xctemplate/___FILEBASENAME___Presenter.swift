@@ -12,10 +12,8 @@ class ___VARIABLE_ModuleName___Presenter {
         interactor = module.interactor
         router = module.router
 
-        view.didLoad
-            .subscribe(onNext: { [weak self] _ in
-                // TODO: Do something on setup
-            })
-            .disposed(by: bag)
+        bag.subscribe(view.didLoad, onNext: { [weak self] _ in
+            // TODO: Do something on setup
+        })
     }
 }
