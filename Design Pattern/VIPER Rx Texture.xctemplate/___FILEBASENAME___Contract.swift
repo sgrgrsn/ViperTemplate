@@ -1,19 +1,15 @@
-@testable import <#AppModule#>
-import RxCocoa
 import RxSwift
-import SwiftyMocky
-import XCTest
 
-class ParameterPresenterTest: XCTestCase {
-    private var view: ___VARIABLE_ModuleName___ViewMock!
-    private var interactor: ___VARIABLE_ModuleName___UseCaseMock!
-    private var router: ___VARIABLE_ModuleName___WireframeMock!
-    private var presenter: ___VARIABLE_ModuleName___Presenter!
+protocol ___VARIABLE_ModuleName___View: LifecycleView {
 
-    override func setUp() {
-        view = ___VARIABLE_ModuleName___ViewMock()
-        interactor = ___VARIABLE_ModuleName___UseCaseMock()
-        router = ___VARIABLE_ModuleName___WireframeMock()
-        presenter = ___VARIABLE_ModuleName___Presenter((view, interactor, router))
-    }
 }
+
+protocol ___VARIABLE_ModuleName___UseCase: class {
+
+}
+
+protocol ___VARIABLE_ModuleName___Wireframe: class {
+
+}
+
+typealias ___VARIABLE_ModuleName___Module = (view: ___VARIABLE_ModuleName___View, interactor: ___VARIABLE_ModuleName___UseCase, router: ___VARIABLE_ModuleName___Wireframe)
