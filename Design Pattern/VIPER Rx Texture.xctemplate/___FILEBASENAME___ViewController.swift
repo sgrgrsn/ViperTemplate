@@ -4,7 +4,7 @@ import RxSwift
 class ___VARIABLE_ModuleName___ViewController: ASViewController<ASDisplayNode> {
     var presenter: ___VARIABLE_ModuleName___Presenter?
 
-    init() {
+    override init() {
     	super.init(node: ASDisplayNode())
     }
 
