@@ -1,7 +1,7 @@
 import AsyncDisplayKit
 import RxSwift
 
-class ___VARIABLE_ModuleName___ViewController: ASViewController<ASDisplayNode> {
+class ___VARIABLE_ModuleName___ViewController: BaseViewController {
     var presenter: ___VARIABLE_ModuleName___Presenter?
 
     override init() {
